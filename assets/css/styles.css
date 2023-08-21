@@ -1,0 +1,63 @@
+body {
+    position: relative;
+    background-color: bisque;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.inputBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.inputText {
+    position: relative;
+    width: 150px;
+    height: 20px;
+    margin-right: 20px;
+    border-radius: 4px;
+}
+
+.button{
+    position: relative;
+    padding: 3px;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.todoList {
+    position: relative;
+    height: 500px;
+    display: flex;
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.todoList h2 {
+    position: absolute;
+    top: 10px;
+}
+
+.todoList ul {
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    top: 45px;
+    list-style-type: none;
+}
+
+.todoList ul li a{
+    justify-content: center;
+    text-align: center;
+}
